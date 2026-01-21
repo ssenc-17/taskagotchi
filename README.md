@@ -1,0 +1,1 @@
+A cozy, retro-inspired productivity sidekick for students. Combine a to-do list, pomodoro timer, and a Tamagotchi to make focusing fun!
