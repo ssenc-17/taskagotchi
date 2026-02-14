@@ -17,16 +17,16 @@ staying productive is hard, especially as a high school student! this apps combi
 git clone https://github.com/ssenc-17/taskagotchi.git
 cd taskagotchi   # only needed if you aren’t already in the folder
 ```
-2. install deps:
+2. install deps :
 ```
 npm install
 ```
-3. run app:
-a. start the react dev server in one terminal
+3. run app :
+i. start the react dev server in one terminal
 ```
 npm run dev
 ```
-b. start electron in another terminal
+ii. start electron in another terminal
 ```
 npm run electron
 ```
