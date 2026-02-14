@@ -1,3 +1,4 @@
+/* main container full screen center stuff */
 .app-container {
   height: 100vh;
   overflow: hidden;
@@ -8,6 +9,7 @@
   background-color: #1a1a1a;
 }
 
+/* main retro window frame and vibe */
 .retro-window {
   width: 300px;
   height: 650px;
@@ -19,16 +21,19 @@
   overflow: hidden;
 }
 
-.retro-window, 
+/* use retro monospace everywhere */
+.retro-window,
 .retro-window * {
   font-family: 'Courier New', Courier, monospace;
 }
 
+/* generic section spacing and border */
 .section {
   padding: 1rem;
   border-bottom: 4px solid #000;
 }
 
+/* color coding sections */
 .timer-section {
   background-color: #d4d4b8;
 }
@@ -46,6 +51,7 @@
   min-height: 0;
 }
 
+/* timer layout stuff */
 .timer-content {
   text-align: center;
   margin-bottom: 0.5rem;
@@ -69,6 +75,7 @@
   letter-spacing: 2px;
 }
 
+/* timer buttons row */
 .timer-controls {
   display: flex;
   justify-content: center;
@@ -77,6 +84,7 @@
   margin-top: 0.75rem;
 }
 
+/* generic control btn style */
 .control-btn {
   border: 2px solid #000;
   cursor: pointer;
@@ -104,6 +112,7 @@
   opacity: 0.9;
 }
 
+/* tamagotchi container and sprite */
 .tamagotchi-container {
   text-align: center;
   margin-bottom: 0.75rem;
@@ -129,8 +138,10 @@
   animation: dance 0.2s ease-in-out infinite;
 }
 
+/* simple dance animation */
 @keyframes dance {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0) rotate(0deg);
   }
   25% {
@@ -141,6 +152,7 @@
   }
 }
 
+/* play button style locked vs active */
 .play-btn {
   display: block;
   margin: 0.75rem auto 0;
@@ -167,8 +179,10 @@
   transform: scale(1.05);
 }
 
+/* pulse animation for active play btn */
 @keyframes pulse {
-  0%, 100% {
+  0%,
+  100% {
     box-shadow: 0 0 0 0 rgba(251, 191, 36, 0.7);
   }
   50% {
@@ -176,11 +190,13 @@
   }
 }
 
+/* placeholder emoji styling */
 .sprite-placeholder {
   font-size: 4rem;
   line-height: 1;
 }
 
+/* stats container layout */
 .stats-container {
   padding: 0 0.5rem;
 }
@@ -212,6 +228,7 @@
   background-color: #4ade80;
 }
 
+/* tasks section layout */
 .tasks-header {
   font-size: 0.875rem;
   font-weight: bold;
@@ -267,6 +284,7 @@
   opacity: 0.9;
 }
 
+/* task input and add btn */
 .task-input-container {
   display: flex;
   gap: 0.25rem;
