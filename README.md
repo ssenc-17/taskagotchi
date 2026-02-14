@@ -21,12 +21,11 @@ cd taskagotchi   # only needed if you aren’t already in the folder
 ```
 npm install
 ```
-3. run app :
-i. start the react dev server in one terminal
+3. start the react dev server in one terminal :
 ```
 npm run dev
 ```
-ii. start electron in another terminal
+4. start electron in another terminal :
 ```
 npm run electron
 ```
