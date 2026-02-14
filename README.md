@@ -1,7 +1,9 @@
 # 🐱 taskagotchi
 ## a cute retro-style tamagotchi app that helps you stay focused and track tasks!
 ---
-staying productive is hard, especially as a high school student! this apps combines a pomodoro-style timer with a virtual pet, so you stay motivated and finish tasks, while also taking breaks
+
+staying productive is hard, especially as a high school student! this apps combines a pomodoro-style timer with a virtual pet, so you stay motivated and finish tasks, while also remembering to take breaks
+
 --- 
 ### how it works :
 - focus timer : 25 min focus sessions with 5 min breaks (adjustable!)
