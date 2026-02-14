@@ -13,7 +13,8 @@ staying productive is hard, especially as a high school student! this apps combi
 
 ### how to run :
 1. clone repo :
-``` git clone https://github.com/ssenc-17/taskagotchi.git
+``` 
+git clone https://github.com/ssenc-17/taskagotchi.git
 cd taskagotchi   # only needed if you aren’t already in the folder
 ```
 2. install deps:
